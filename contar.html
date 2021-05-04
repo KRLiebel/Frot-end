@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contagem</title>
+    <link rel="stylesheet" href="stylecont.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar!</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                 Inicio da contagem: 
+                 <input type="number" name="txtinicio" id="txti">
+            </p>
+            <p>
+                Fim da contagem: 
+                <input type="number" name="txtfim" id="txtfim">
+            </p>
+            <p>
+                 Pulagem de tantos números:
+                 <input type="number" name="txtpula" id="txtpula"></p>
+            <p>
+                <input id="btn" type="button" value="contagem" onclick="contar()">
+            </p>
+        </div>
+        <div id="result">
+            <p>Aqui aparecera a contagem pulando determinados valores!</p>
+        </div>
+    </section>
+    <footer>
+      <p>&copy;KellenR.Liebel</p>  
+    </footer>
+    <script src="action.js"></script>
+    
+</body>
+</html>
